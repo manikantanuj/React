@@ -1,10 +1,11 @@
 import React from "react";
 import FoodItems from "./components/FoodItems";
 import ErrorMessage from "./components/ErrorMessage";
+import "./App.css";
 
 function App() {
-  //let foodItems = ["Dal", "Salad", "chana", "Veggies","Pancakes"];
-  let foodItems =[];
+  let foodItems = ["Noodles", "Salad", "Milk", "Veggies", "Pancakes"];
+  //let foodItems =[];
   return (
     // <React.Fragment> or <>...</> can be used
     // <>
@@ -19,7 +20,7 @@ function App() {
     // {/* // </React.Fragment> */}
     // </>
     <>
-      <h1>Healthy Foods</h1>
+      <h1 className="food-heading">Healthy Foods</h1>
       <ErrorMessage items={foodItems} />
       <FoodItems items={foodItems} />
     </>

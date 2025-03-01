@@ -1,0 +1,14 @@
+
+input {
+  width:100% 
+  /* Width 100% means the element will take all the width of its parent */
+}
+
+.todo-row {
+  margin: 10px 5px;
+}
+
+.todo-btn {
+  min-width: 80px;
+  border-radius: 20px;
+}
